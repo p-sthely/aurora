@@ -6,3 +6,6 @@ This project is a simple React page based on the [Aurora Design Kit](https://www
 
 See the Vercel deployment [here](https://aurora-dusky.vercel.app/)
 
+## Mockup
+
+![Aurora mockup](./public/aurora-mockup.png)
