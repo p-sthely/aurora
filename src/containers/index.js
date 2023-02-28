@@ -1,0 +1,7 @@
+export { default as Header } from './header/Header'
+export { default as Cta } from './cta/Cta'
+export { default as Features } from './features/Features'
+export { default as LogoClouds } from './logoClouds/LogoClouds'
+export { default as Team } from './team/Team'
+export { default as Blog } from './blog/Blog'
+export { default as Footer } from './footer/Footer'
