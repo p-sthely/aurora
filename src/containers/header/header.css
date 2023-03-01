@@ -1,8 +1,61 @@
 .header {
-  border: 1px solid #000; /*DEV*/
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 0 24px;
+  padding: 12px 0;
+}
+
+.header__tabs {
+  display: none;
+}
+
+.header__tabs ul {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header__tabs li {
+  padding: 14px 16px;
+}
+
+.header__tabs a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--color-base-black);
+}
+
+.header__cta {
+  display: none;
+  gap: 16px;
+}
+
+.header__cta a {
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.header__cta a.button-primary {
+  background: var(--color-primary-500);
+  color: #fff;
+}
+
+.header__cta a.button-secondary {
+  border: 1px solid var(--color-neutrals-500);
+  background: #fff;
+  color: var(--color-base-black);
 }
 
 /* X Small breakpoint */
@@ -26,6 +79,14 @@
   .header {
     width: 888px;
     margin: 0 auto;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__tabs, .header__cta {
+    display: flex;
   }
 }
 
