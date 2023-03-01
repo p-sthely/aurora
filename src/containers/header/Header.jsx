@@ -20,8 +20,8 @@ function Header() {
         </ul>
       </div>
       <div className='header__cta'>
-        <a class='button-secondary' href='#'>Log in</a>
-        <a class='button-primary' href='#'>Sign up</a>
+        <a className='button-secondary' href='#'>Log in</a>
+        <a className='button-primary' href='#'>Sign up</a>
       </div>
       <div className='header__menu'>
       { toggleMenu
