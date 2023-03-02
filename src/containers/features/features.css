@@ -1,0 +1,119 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 0 24px;
+  padding: 128px 0;
+}
+
+.features__description p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color-base-black);
+}
+
+.features__description__title p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-neutrals-700);
+}
+
+.features__description__title h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--color-base-black);
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.features__list .row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feature {
+  flex: 1;
+  padding: 0 32px;
+}
+
+.feature__logo {
+  display: inline-block;
+  padding: 8px;
+  background: var(--color-neutrals-200);
+  border-radius: 8px;
+}
+
+.feature__description h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--color-base-black);
+}
+
+.feature__description p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-base-black);
+}
+
+/* X Small breakpoint */
+@media screen and (min-width: 576px) {
+  .features {
+    width: 528px;
+    margin: 0 auto;
+  }
+}
+
+/* Small breakpoint */
+@media screen and (min-width: 768px) {
+  .features {
+    width: 720px;
+    margin: 0 auto;
+  }
+
+  .features__list .row {
+    flex-direction: row;
+  }
+}
+
+/* Medium breakpoint */
+@media screen and (min-width: 1024px) {
+  .features {
+    width: 888px;
+    margin: 0 auto;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (min-width: 1280px) {
+  .features {
+    width: 1128px;
+    margin: 0 auto;
+  }
+}
+
+/* X Large breakpoint */
+@media screen and (min-width: 1440px) {
+  .features {
+    width: 1128px;
+    margin: 0 auto;
+  }
+}

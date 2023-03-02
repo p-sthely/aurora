@@ -3,6 +3,8 @@
 :root {
   --font-family: 'Manrope';
   --color-base-black: #02021c;
+  --color-neutrals-200: #f4f5f6;
   --color-neutrals-500: #c6cace;
+  --color-neutrals-700: #656d76;
   --color-primary-500: #d6375d;
 }
