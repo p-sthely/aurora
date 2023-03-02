@@ -1,0 +1,54 @@
+.logoClouds {
+  text-align: center;
+}
+
+.logoClouds h2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--color-base-black);
+}
+
+/* X Small breakpoint */
+@media screen and (min-width: 576px) {
+  .logoClouds {
+    width: 528px;
+    margin: 0 auto;
+  }
+}
+
+/* Small breakpoint */
+@media screen and (min-width: 768px) {
+  .logoClouds {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* Medium breakpoint */
+@media screen and (min-width: 1024px) {
+  .logoClouds {
+    flex-direction: row;
+    width: 888px;
+    margin: 0 auto;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (min-width: 1280px) {
+  .logoClouds {
+    width: 1128px;
+    margin: 0 auto;
+  }
+}
+
+/* X Large breakpoint */
+@media screen and (min-width: 1440px) {
+  .logoClouds {
+    width: 1128px;
+    margin: 0 auto;
+  }
+}
