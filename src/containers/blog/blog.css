@@ -1,0 +1,148 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 0 24px;
+  padding: 128px 0;
+}
+
+.blog__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog__head h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  color: var(--color-base-black);
+}
+
+.blog__head p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color-base-black);
+}
+
+.blog__cardList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__body__content {
+  margin: 24px 0;
+}
+
+.card__body__content__badges {
+  display: flex;
+  gap: 12px;
+}
+
+.card__body__content__badges p {
+  margin: 0;
+  padding: 4px 12px;
+  background: #F4F5F6;
+  border-radius: 100px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--color-base-black);
+}
+
+.card__body__content__description h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--color-base-black);
+}
+
+.card__body__content__description p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: var(--color-base-black);
+}
+
+.card__body__cta {
+  display: flex;
+  justify-content: end;
+}
+
+.card__body__cta a {
+  display: inline-block;
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid var(--color-neutrals-500);
+  border-radius: 10px;
+  text-decoration: none;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-base-black);
+}
+
+/* X Small breakpoint */
+@media screen and (min-width: 576px) {
+  .blog {
+    width: 528px;
+    margin: 0 auto;
+  }
+}
+
+/* Small breakpoint */
+@media screen and (min-width: 768px) {
+  .blog {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* Medium breakpoint */
+@media screen and (min-width: 1024px) {
+  .blog {
+    width: 888px;
+    margin: 0 auto;
+  }
+}
+
+/* Large breakpoint */
+@media screen and (min-width: 1280px) {
+  .blog {
+    width: 1128px;
+    margin: 0 auto;
+  }
+
+  .blog__cardList {
+    flex-direction: row;
+  }
+}
+
+/* X Large breakpoint */
+@media screen and (min-width: 1440px) {
+  .blog {
+    width: 1128px;
+    margin: 0 auto;
+  }
+}
